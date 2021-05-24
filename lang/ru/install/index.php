@@ -1,7 +1,7 @@
 <?
-$MESS["kit.auth_MODULE_NAME"] = "Сотбит: Расширенная регистрация и авторизация";
-$MESS["kit.auth_MODULE_DESC"] = "Сотбит: Расширенная регистрация и авторизация";
-$MESS["kit.auth_PARTNER_NAME"] = "Сотбит";
+$MESS["kit.auth_MODULE_NAME"] = "KIT: Расширенная регистрация и авторизация";
+$MESS["kit.auth_MODULE_DESC"] = "KIT: Расширенная регистрация и авторизация";
+$MESS["kit.auth_PARTNER_NAME"] = "KIT";
 $MESS["kit.auth_PARTNER_URI"] = "https://asdaff.github.io/";
 
 $MESS["kit.auth_KIT_AUTH_SUCCESS_CHANGE_PASSWORD_NAME"] = "Восстановление пароля";

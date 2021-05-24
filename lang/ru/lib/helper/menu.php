@@ -16,5 +16,5 @@ $MESS[KitAuth::idModule."_MENU_settings_SETTINGS_TITLE"] = "Настройки";
 $MESS[KitAuth::idModule."_MENU_ALL_SETTINGS_TITLE"] = "Общие настройки";
 $MESS[KitAuth::idModule."_MENU_KIT_AUTH_STATISTICS"] = "Статистика";
 $MESS[KitAuth::idModule."_MENU_KIT_AUTH_LIST_COMPANY"] = "Список компаний";
-$MESS[KitAuth::idModule.'_GLOBAL_MENU'] = 'Сотбит';
+$MESS[KitAuth::idModule.'_GLOBAL_MENU'] = 'KIT';
 ?>

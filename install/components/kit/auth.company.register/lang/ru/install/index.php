@@ -1,7 +1,7 @@
 <?
 $MESS["kit.auth_MODULE_NAME"] = "Расширенная авторизация";
 $MESS["kit.auth_MODULE_DESC"] = "Авторизации пользователей";
-$MESS["kit.auth_PARTNER_NAME"] = "Сотбит";
+$MESS["kit.auth_PARTNER_NAME"] = "KIT";
 $MESS["kit.auth_PARTNER_URI"] = "https://asdaff.github.io/";
 
 $MESS["kit.auth_KIT_AUTH_SUCCESS_CHANGE_PASSWORD_NAME"] = "Восстановление пароля";
