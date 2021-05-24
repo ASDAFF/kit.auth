@@ -1,0 +1,3 @@
+<?
+$MESS["KIT_AUTH_COMPANY_JOIN_ERROR_MESSAGE_COMPANY_NOT_CHOOSE"] = "Выберите компанию";
+?>

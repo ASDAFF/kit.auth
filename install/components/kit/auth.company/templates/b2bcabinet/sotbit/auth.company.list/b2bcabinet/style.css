@@ -1,0 +1,277 @@
+/*Table*/
+.sale-personal-profile-list-container
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+/*Table head*/
+.sale-personal-profile-list-container th
+{
+	border: 1px solid #e2e5e9;
+	padding:5px 5px 5px 10px;
+	font-family: ProximaNova , Arial;
+	font-size:14px;
+	text-align:left;
+	font-weight:normal;
+	background: #f8f8f8;
+	color: #303030;
+}
+.sale-personal-profile-list-container td
+{
+	border:1px solid #e2e5e9;
+	padding:5px 5px 5px 10px;
+	font-family:ProximaNova, Arial;
+	font-size:12px;
+	color:#303030;
+	vertical-align: middle;
+}
+.content-text .sale-personal-profile-list-actions a
+{
+	color: #a76e6e;
+}
+.sale-personal-profile-list-border
+{
+	display: inline-block;
+	margin: 0 5px;
+	height: 23px;
+	border-right: 1px solid #dee2e7;
+	vertical-align: middle;
+}
+
+.btn.btn-light.index_company-add_organization-button, .btn.btn-light.index_company-join_organization-button {
+	width: 170px;
+	background: #3e495f;
+	color: #fff;
+	float: right;
+}
+
+.btn.btn-light.index_company-add_organization-button:hover, .btn.btn-light.index_company-join_organization-button:hover {
+	background: #2a3140;
+	color: #fff;
+}
+
+.btn.btn-light.index_company-add_organization-button:active, .btn.btn-light.index_company-join_organization-button:active {
+	background: #2a3140;
+	color: #fff;
+}
+
+
+.popup-window-buttons > .main-grid-settings-window-actions-item-button {
+	display: inline-block;
+	height: 39px;
+	line-height: 39px;
+	margin: 0 12px 0 0;
+	background: #ecedef;
+	border-radius: 2px;
+	cursor: pointer;
+	color: #7a818a;
+	font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	outline: none;
+	padding: 0 18px;
+	vertical-align: middle;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: none;
+	white-space: nowrap;
+	-webkit-box-shadow: 0 0 0 1px #c6cdd3 inset;
+	box-shadow: 0 0 0 1px #c6cdd3 inset;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: background-color 0.2s linear, color 0.2s linear;
+	transition: background-color 0.2s linear, color 0.2s linear;
+}
+.popup-window-buttons > .main-grid-settings-window-actions-item-button:hover {
+	background: #f3f6f8;
+}
+.main-grid-settings-window-buttons-wrapper > .main-grid-settings-window-actions-item-button
+{
+	margin: 0 10px 0 0;
+}
+
+.btn.index_company-add_organization-button, .btn.index_company-join_organization-button {
+	min-width: 170px;
+	background: #3e495f;
+	color: #fff;
+	float: right;
+	margin-bottom: 1rem;
+}
+
+.btn.index_company-join_organization-button {
+	float: left;
+}
+
+.btn.index_company-add_organization-button:hover, .btn.index_company-join_organization-button:hover {
+	background: #2a3140;
+	color: #fff;
+}
+
+.btn.index_company-add_organization-button:active, .btn.index_company-join_organization-button:active {
+	background: #2a3140;
+	color: #fff;
+}
+
+@media (max-width: 440px) {
+	.btn.index_company-add_organization-button  {
+		float: left;
+		margin-left:10px;
+	}
+	.btn.index_company-join_organization-button {
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-left:10px;
+	}
+}
+
+.company-list__group-button{
+	float: right;
+}
+.company-list__group-button a{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.company-list__group-button a:not(:last-child){
+	margin-right: 20px;
+}
+
+
+.wrap-popup-window {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	z-index: 1000;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrap-popup-window .modal-popup-bg {
+	background-color: #000000;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+.popup-window.popup-window-content-white.popup-window-with-titlebar {
+	z-index: 1001 !important;
+}
+
+.popup-window-overlay {
+	z-index: 1000 !important;
+}
+
+.wrap-popup-window .popup-window {
+	position: relative;
+	z-index: 11000;
+	max-height: 97%;
+	max-width: 95%;
+}
+
+.popup-window {
+	max-width: 95%;
+}
+
+#bx-catalog-subscribe-form-notify {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+.modal-block .popup-close {
+	height: 28px;
+	width: 28px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.popup-close {
+	height: 14px;
+	width: 14px;
+	display: block;
+	position: absolute;
+	top: 23px;
+	right: 30px;
+	cursor: pointer;
+	background-image: url(img/icon_cross.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.2s ease-in-out;
+	z-index: 150;
+}
+
+.popup-window {
+	padding: 0 !important;
+	margin: 0;
+}
+
+.popup-window .popup-window-content {
+	background: none;
+}
+
+
+.popup-window .popup-window-close-icon:after {
+	display: none;
+}
+
+.popup-join-company .popup-content{
+	padding: 30px;
+}
+
+
+div.popup-close:hover {
+	background-image: url(img/icon_cross_hover.png);
+}
+
+.quick-view__title {
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 18px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.quick-view__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quick-view__shadow {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+	bottom: 0;
+}
+
+.aside-block {
+	width: 268px;
+	background-color: #fff;
+}
+
+.quick-view__aside {
+	margin-right: 20px;
+}
+
+a[data-actions^="[{'className':'deactivate'"] {
+	/*display: none;*/
+	background: url(/local/templates/b2bcabinet/components/bitrix/main.ui.grid/.default/images/sprite-interface.min.svg) 0 -20px no-repeat;
+}
+
+span.company-list__company-status{
+	font-size: 13px;
+	line-height: 20px;
+	color: #999999;
+}

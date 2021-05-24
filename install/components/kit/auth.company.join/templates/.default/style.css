@@ -1,0 +1,99 @@
+.joinCompany__form-title,
+.joinCompany__form-no-item {
+    font-size: 19px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.join__search-company {
+    margin-bottom: 14px;
+}
+
+.join-company-select option {
+    cursor: pointer;
+    min-height: 48px;
+}
+
+.join-company-select {
+    margin-bottom: 19px;
+}
+
+.join-company-select option:hover {
+    background-color: #F6F8F9;
+}
+
+.joinCompany__success-block {
+    display: none;
+    min-width: 470px;
+    margin-top: 30px;
+}
+
+.joinCompany__success-block .btn_ok {
+    width: 226px;
+    margin-top: 20px;
+}
+
+.join-row .btn {
+    flex-grow: 1;
+    width: 225px;
+}
+
+.join-row {
+    display: flex;
+}
+
+.join-row input[name="company-join-reset"] {
+    margin-right: 20px;
+}
+
+.company-join-wrap {
+    max-width: 472px;
+}
+
+.joinCompany__form-no-item {
+    margin-top: 20px;
+}
+
+.popup-content {
+    background-color: #ffffff;
+}
+
+.select__company-item {
+    position: relative;
+    padding: 15px 35px 15px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select__company-icon[class^="icon-"],
+.select__company-icon[class*=" icon-"] {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+.select__company-item.checked .select__company-icon[class^="icon-"],
+.select__company-item.checked .select__company-icon[class*=" icon-"] {
+    display: block;
+}
+
+
+
+.select__company-item.checked,
+.select__company-item.checked:hover {
+    background-color: #3E495F;
+    color: #FFFFFF;
+}
+
+.select__company-item:hover {
+    background-color: #F6F8F9;
+}
+
+.company-join__select-block {
+    height: 280px;
+    border: 1px solid #ddd;
+    border-radius: .1875rem;
+    overflow: auto;
+    margin-bottom: 20px;
+}

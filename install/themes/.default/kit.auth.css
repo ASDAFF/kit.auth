@@ -1,0 +1,7 @@
+#global_menu_kit .adm-main-menu-item-icon{
+    background: url("icons/kit/icon.png") no-repeat 50% 55%;
+}
+
+.kit_auth_menu_icon{
+    background: url("icons/kit.auth/icon.png") no-repeat center;
+}

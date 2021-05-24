@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `kit_auth_message`;
+DROP TABLE IF EXISTS `kit_auth_statistics`;
+DROP TABLE IF EXISTS `kit_auth_user_confirm`;
+DROP TABLE IF EXISTS `kit_auth_buyer_confirm`;
+DROP TABLE IF EXISTS `kit_auth_file`;
+DROP TABLE IF EXISTS `kit_auth_company`;
+DROP TABLE IF EXISTS `kit_auth_company_props_value`;
+DROP TABLE IF EXISTS `kit_auth_roles`;
+DROP TABLE IF EXISTS `kit_auth_staff`;
+DROP TABLE IF EXISTS `kit_auth_company_confirm`;

@@ -1,0 +1,50 @@
+.index_order_cancel .index_order_cancel-button {
+  width: 170px;
+  height: 36px;
+  background: #3e495f;
+  color: #fff;
+}
+
+.index_order_cancel .index_order_cancel-button:hover {
+  background: #2a3140;
+  color: #fff;
+}
+
+.index_order_cancel .index_order_cancel-button:active {
+  background: #2a3140;
+  color: #fff;
+}
+
+.index_order_cancel .index_order_cancel_form .col-lg-3 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.index_order_cancel .index_order_cancel_form .col-lg-9 {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+  .index_order_cancel .index_order_cancel_form .col-lg-3 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .index_order_cancel .index_order_cancel_form .col-lg-9 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .index_order_cancel .index_order_cancel_form .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .index_order_cancel .index_order_cancel_form .col-lg-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

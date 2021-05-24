@@ -1,0 +1,4 @@
+<?
+$MESS["KIT_COMPANY_CHOOSE_COMPANY_ON_MODERATION"] = " (на модерации)";
+$MESS["KIT_COMPANY_CHOOSE_APPLICATION_DECLINED"] = " (заявка отклонена)";
+?>

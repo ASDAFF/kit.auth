@@ -1,0 +1,97 @@
+.content-text .sale-profile-detail-link-list a{
+	margin-bottom: 20px;
+	color: #a76e6e;
+	display:block;
+}
+.req{color:red;}
+
+
+.buyer_profile .wrap_content {
+	padding: 20px 4% 44px 4%;
+	background: #f8f8f8;
+}
+
+.buyer_profile .wrap_content .block_title {
+	font-family: 'PG Isadora Cyr Pro', Arial, regular;
+	color: #a76e6e;
+	margin-bottom: 10px;
+}
+
+.buyer_profile .wrap_content .wrap_block {
+	margin-bottom: 30px;
+}
+
+.buyer_profile .wrap_content .personal_field_val {
+	border: 1px solid transparent;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	margin-bottom: 11px;
+}
+
+.buyer_profile .wrap_content .wrap_block input[type=text],
+	.buyer_profile .wrap_content .wrap_block input[type=password]
+	 {
+	border: 1px solid #959595;
+	height: 30px;
+	padding: 0 2%;
+	width: 100%;
+	margin-bottom: 11px;
+	border-radius: 0;
+}
+.buyer_profile .wrap_content textarea,
+.buyer_profile .wrap_content .dropdown-block
+{
+	border: 1px solid #959595;
+	width: 100%;
+	margin-bottom: 11px;
+	border-radius: 0;
+}
+.buyer_profile .wrap_content textarea
+{
+padding: 0 2%;
+}
+.buyer_profile .wrap_content .wrap_block  label {
+	line-height: 30px;
+	height: 30px;
+	color: #434343;
+}
+
+.buyer_profile .wrap_content input[type="submit"] {
+	font-family: 'PG Isadora Cyr Pro', Arial, regular;
+	color: #fff;
+	position: relative;
+	background-color: #603a2f;
+	border: 1px solid #6c6400;
+	box-shadow: 0 2px 2px 1px #bebebe;
+	display: block;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 5px;
+	width: 100%;
+	border-radius: 0;
+}
+.buyer_profile .wrap_content input.btn-reset
+{
+	font-family: 'Franklin Gothic Book';
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #797979;
+	background-color: #fff;
+	line-height: 38px;
+	height: 38px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 0px 2px 2px 1px #bebebe;
+	-webkit-box-shadow: 0px 2px 2px 1px #bebebe;
+	-moz-box-shadow: 0px 2px 2px 1px #bebebe;
+	cursor:pointer;
+	border:unset;
+}

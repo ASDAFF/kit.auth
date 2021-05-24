@@ -1,0 +1,78 @@
+.auth-company-change {
+    box-sizing: border-box;
+    padding: 0 16px;
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    background-color: #252b38;
+    color: #fff;
+    margin-right: auto;
+}
+
+.auth-company-change__current {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.auth-company-change__current svg:first-child {
+    margin-right: 10px;
+}
+
+.auth-company-change__current svg:last-child {
+    margin-left: 10px;
+}
+
+
+.auth-company-change__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.auth-company-change__item {
+    padding: 8px 24px;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.auth-company-change__item:hover {
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+.auth-company-change__list-wrapper {
+    display: none;
+    min-width: 200px;
+    max-width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+}
+
+.auth-company-change__list-wrapper.open-dropdown {
+    display: block;
+}
+.auth-company-change__item.error-company{
+    color: #f44336;
+    cursor: not-allowed;
+}
