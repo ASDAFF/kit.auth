@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/sotbit.auth/admin/sotbit_auth_img.php");?>

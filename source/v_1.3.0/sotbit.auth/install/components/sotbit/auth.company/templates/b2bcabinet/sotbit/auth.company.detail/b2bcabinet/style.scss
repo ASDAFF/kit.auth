@@ -1,0 +1,21 @@
+.blank_detail-menu .nav-tabs-highlight .nav-link.active::before {
+  background-color: #3e495f;
+}
+
+.blank_detail_table {
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.row.profile-types__wrapper {
+  display: block;
+}
+
+.col-md-offset-3.col-sm-9.sale-personal-profile-btn-block {
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .blank_detail-menu {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "sotbit.auth",
+  "version": "1.2.6",
+  "main": "",
+  "ignore": [
+    "source",
+    ".gitignore",
+    ".idea",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
